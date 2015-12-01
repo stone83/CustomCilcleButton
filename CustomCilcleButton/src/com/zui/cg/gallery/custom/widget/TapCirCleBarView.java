@@ -9,7 +9,9 @@ import android.widget.RelativeLayout;
 
 import com.zui.cg.R;
 
-
+/**
+ * @author stone
+ * */
 public class TapCirCleBarView extends RelativeLayout implements View.OnClickListener, View.OnTouchListener {
 
 	private TapCirCleBarBgView tabBackview;

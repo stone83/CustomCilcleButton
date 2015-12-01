@@ -24,7 +24,9 @@ import android.widget.RelativeLayout;
 
 import com.zui.cg.R;
 
-
+/**
+ * @author stone
+ * */
 @SuppressLint("NewApi")
 public class TapCirCleBarBgView extends View {
 	private RectF rectF = new RectF();

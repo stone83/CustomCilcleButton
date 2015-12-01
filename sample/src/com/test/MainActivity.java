@@ -9,7 +9,9 @@ import com.zui.cg.gallery.custom.widget.BUTTONMODE;
 import com.zui.cg.gallery.custom.widget.TapCirCleBarView;
 import com.zui.cg.gallery.custom.widget.TapCirCleBarView.OnTabBarClickListener;
 
-
+/**
+ * @author stone
+ * */
 public class MainActivity extends Activity{
     public static final String TAG = "huzedong";
     private TapCirCleBarView tabBarAnimView;

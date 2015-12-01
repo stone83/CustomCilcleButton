@@ -1,5 +1,7 @@
 package com.zui.cg.gallery.custom.widget;
-
+/**
+ * @author stone
+ * */
 public enum BUTTONMODE {
     SINGLEMODE("single"), CHOICEMODE("mutil");
     private String mode;
