@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <com.zui.cg.gallery.custom.widget.TapCirCleBarView
+        android:id="@+id/tabBarAnimView"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true" />
+        <com.zui.cg.gallery.custom.widget.TapCirCleBarView
+        android:id="@+id/tabBarAnimView2"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dip"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/tabBarAnimView" />
+    <!-- 
+        <com.zui.cg.gallery.custom.widget.TapCirCleBarView
+        android:id="@+id/tabBarAnimView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true" />
+     -->
+
+</RelativeLayout>

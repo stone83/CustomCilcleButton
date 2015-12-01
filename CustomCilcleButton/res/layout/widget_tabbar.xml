@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myattrs="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="66dp" >
+
+    <com.zui.cg.gallery.custom.widget.TapCirCleBarBgView
+        android:id="@+id/tabBackView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        myattrs:isdefopen="false" />
+    <View
+        android:id="@+id/centerIV"
+        android:layout_width="66dp"
+        android:layout_height="match_parent" />
+    <View
+        android:id="@+id/firstIV"
+        android:layout_width="25dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/centerIV"
+        android:layout_marginLeft="10dip"
+         />
+
+    <View
+        android:id="@+id/secondIV"
+        android:layout_width="25dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dip"
+        android:layout_toRightOf="@+id/firstIV"
+         />
+
+     <View
+        android:id="@+id/thirdIV"
+        android:layout_width="25dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dip"
+        android:layout_toRightOf="@+id/secondIV"
+         />
+     <!-- 
+     android:background="#ff00ff00"
+      -->
+</RelativeLayout>
