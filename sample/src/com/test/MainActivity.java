@@ -2,8 +2,6 @@ package com.test;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
 
 import com.zui.cg.gallery.custom.widget.BUTTONMODE;
 import com.zui.cg.gallery.custom.widget.TapCirCleBarView;
@@ -58,13 +56,14 @@ public class MainActivity extends Activity{
         @Override
         public void onMainMenuClick(int position) {
 //            Log.e("huzedong", "================= : " + position);
-            tabBarAnimView2.setVisibility(View.GONE);
+//            tabBarAnimView2.setVisibility(View.GONE);
             
         }
 
         @Override
         public void onRightMainClick(int position, String value) {
 //            Log.e("huzedong", "================= : " + position + " : " + value);
+            tabBarAnimView2.setTextMain(value);
             
         }
     };

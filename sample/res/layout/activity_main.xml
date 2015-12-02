@@ -3,11 +3,11 @@
     android:layout_height="match_parent" >
     <com.zui.cg.gallery.custom.widget.TapCirCleBarView
         android:id="@+id/tabBarAnimView"
-        android:layout_width="200dip"
+        android:layout_width="220dip"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_centerVertical="true" />
-        <com.zui.cg.gallery.custom.widget.TapCirCleBarView
+                <com.zui.cg.gallery.custom.widget.TapCirCleBarView
         android:id="@+id/tabBarAnimView2"
         android:layout_width="100dip"
         android:layout_height="wrap_content"
@@ -15,7 +15,10 @@
         android:layout_marginLeft="10dip"
         android:layout_centerVertical="true"
         android:layout_toRightOf="@id/tabBarAnimView" />
+
     <!-- 
+    
+
         <com.zui.cg.gallery.custom.widget.TapCirCleBarView
         android:id="@+id/tabBarAnimView"
         android:layout_width="match_parent"
