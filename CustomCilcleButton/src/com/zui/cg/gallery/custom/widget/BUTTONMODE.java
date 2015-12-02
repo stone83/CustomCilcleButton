@@ -3,7 +3,7 @@ package com.zui.cg.gallery.custom.widget;
  * @author stone
  * */
 public enum BUTTONMODE {
-    SINGLEMODE("single"), CHOICEMODE("mutil");
+    SINGLEMODE("single"), SINGLEMODE_ICON("single_icon"), CHOICEMODE("mutil");
     private String mode;
     
     private BUTTONMODE(String mode){

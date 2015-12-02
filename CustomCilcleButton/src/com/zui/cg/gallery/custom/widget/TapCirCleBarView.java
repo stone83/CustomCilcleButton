@@ -118,6 +118,11 @@ public class TapCirCleBarView extends RelativeLayout implements View.OnClickList
         
 	}
 
+	public void setTextMain(String text){
+	    tabBackview.setTextMain(text);
+	    tabBackview.invalidate();
+	}
+	
 	public void initializePosition(int pos) {
 		this.pos = pos;
 		tabBackview.initPosition(pos);
